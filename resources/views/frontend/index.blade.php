@@ -5,7 +5,7 @@
         style="background: url('{{ asset('webImages/banners/2.jpg') }}'); background-size: cover;">
         <ul class="list">
             <li class="flex_ flex_space" style="align-items: flex-start;">
-                <div class="banner__Txt">
+                <div class="" style=" position: relative; width: 35%; left: 5%; padding-top: 20rem;">
                     <h2>
                         Shawn Transport - Your Trusted &amp; Safest Auto Transportation
                     </h2>

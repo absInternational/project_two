@@ -1488,10 +1488,16 @@ form .grid {
 }
 
 .banner__Txt {
-    position: relative;
+    position: absolute;
     width: 35%;
-    left: 5%;
-    padding-top: 20rem;
+    left: 0;
+    right: 0;
+    padding-top: 0%;
+    margin: 0 auto;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    text-align: center;
 }
 
 .banner__Txt .flex_ {

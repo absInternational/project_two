@@ -35,13 +35,7 @@ h6 {
     line-height: 1.2;
     margin: 1rem 0;
 }
-/* 
-<div class="d-none">
-        <div class="h/folders/1-qzMBIZUwDT2-2pF7nuPx6bbMI0DRrGN?usp=sharing"></div>
-        <div class="h/folders/1-qzMBIZUwDT2-2pF7nuPx6bbMI0DRrGN?usp=sharing"></div>
-        <div class="h/folders/1-qzMBIZUwDT2-2pF7nuPx6bbMI0DRrGN?usp=sharing"></div>
-        <div class="h/folders/1-qzMBIZUwDT2-2pF7nuPx6bbMI0DRrGN?usp=sharing"></div>
-    </div>*/
+
 h1 {
     font-size: 5rem;
 }
@@ -1494,10 +1488,16 @@ form .grid {
 }
 
 .banner__Txt {
-    position: relative;
+    position: absolute;
     width: 35%;
-    left: 5%;
-    padding-top: 20rem;
+    left: 0;
+    right: 0;
+    padding-top: 0%;
+    margin: 0 auto;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    text-align: center;
 }
 
 .banner__Txt .flex_ {
