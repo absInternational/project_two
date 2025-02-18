@@ -106,7 +106,7 @@
                                 <div class="input_box">
                                     <label>Make</label>
                                     <div class="input_">
-                                        <select class="effect-8" requ data-placeholder="Make" aria-hidden="true">
+                                        <select class="effect-8" requ data-placeholder="Make" aria-hidden="true" name="make[]">
                                             <option value="0" selected="" disabled="" data-select2-id="4">
                                                 Make</option>
                                             <option value="Acura">Acura</option>
